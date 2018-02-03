@@ -20,7 +20,7 @@ If you begin to rely on this kafka setup we recommend you fork, for example to e
 
 ## Version history
 
-| tag   | k8s >= | highlights |
+| tag   | k8s ≥ | highlights |
 | ----- | ------ | ---------- |
 | v3.1  | 1.8    | The painstaking path to `min.insync.replicas`=2 |
 | v3.0  | 1.8    | [Outside access](#78), [modern manifests](#84), [bootstrap.kafka](#52) |
