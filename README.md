@@ -1,12 +1,12 @@
 # Kafka for Kubernetes
 
 This community seeks to provide:
- * Production-worthy setup of Kafka for persistent data, domain and ops, at small scale.
- * Operational knowledge, skewed towards resilience rather than throughput, encoded into Kubernetes manifest.
- * A platform for streaming/event-driven microservices design using Kubernetes.
+ * Production-worthy Kafka setup for persistent (domain- and ops-) data at small scale.
+ * Operational knowledge, biased towards resilience over throughput, encoded into Kubernetes manifest.
+ * A platform for event-driven/streaming microservices design using Kubernetes.
 
-We suggest you `apply` manifests in the following order:
- * You choice of storage classes from [./configure/](./configure).
+We suggest you `apply -f` manifests in the following order:
+ * You choice of storage classes from [./configure/](./configure)
  * [./rbac-namespace-default](./rbac-namespace-default/)
  * [./zookeeper](./zookeeper/)
  * [./kafka](./kafka/)
@@ -16,17 +16,17 @@ That'll give you client "bootstrap" `bootstrap.kafka.svc.cluster.local:9092`.
 ## Fork
 
 Our only dependency is `kubectl`. Not because we hate Helm or Operators, but because we think plain manifests make it easier to collaborate.
-If you begin to rely on this kafka setup we recommend you fork, for example to edit [broker config]().
+If you begin to rely on this kafka setup we recommend you fork, for example to edit [broker config](https://github.com/Yolean/kubernetes-kafka/blob/master/kafka/10broker-config.yml#L47).
 
 ## Version history
 
 | tag  | k8s >= | highlights |
-|------|----||
-| v3.1 | 1.8|The painstaking path to `min.insync.replicas`=2|
-| v3.0 | 1.8||
-| v2.1 | 1.5 ||
-| v2.0 | 1.5 |[addon](https://github.com/Yolean/kubernetes-kafka/labels/addon)s|
-| v1.0 |  1  |Stateful? In Kubernetes? 2016? Yes.|
+|:----:|:------:| |
+| v3.1 | 1.8    | The painstaking path to `min.insync.replicas`=2 |
+| v3.0 | 1.8    | |
+| v2.1 | 1.5    | |
+| v2.0 | 1.5    | [addon](https://github.com/Yolean/kubernetes-kafka/labels/addon)s |
+| v1.0 | 1      | Stateful? In Kubernetes? 2016? Yes. |
 
 ## Monitoring
 
@@ -50,6 +50,6 @@ For minikube, youkube etc have a look at:
 
 ## Stream...
 
- * [Kubernetes events to kafka](./events-kube/)
+ * [Kubernetes events to Kafka](./events-kube/)
  * [Container logs to Kafka](https://github.com/Yolean/kubernetes-kafka/pull/131)
  * [Heapster metrics to Kafka](https://github.com/Yolean/kubernetes-kafka/pull/120)
