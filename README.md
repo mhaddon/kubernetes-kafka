@@ -26,7 +26,7 @@ If you begin to rely on this kafka setup we recommend you fork, for example to e
 | v3.0  | 1.8    | [Outside access](#78), [modern manifests](#84), [bootstrap.kafka](#52) |
 | v2.1  | 1.5    | Kafka 1.0, the init script concept |
 | v2.0  | 1.5    | [addon](https://github.com/Yolean/kubernetes-kafka/labels/addon)s |
-| v1.0  | 1      | Stateful? In Kubernetes? 2016? Yes. |
+| v1.0  | 1      | Stateful? In Kubernetes? In 2016? Yes. |
 
 ## Monitoring
 
