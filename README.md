@@ -6,7 +6,7 @@ This community seeks to provide:
  * A platform for event-driven/streaming microservices design using Kubernetes.
 
 We suggest you `apply -f` manifests in the following order:
- * You choice of storage classes from [./configure/](./configure)
+ * You choice of storage classes from [./configure](./configure/)
  * [./rbac-namespace-default](./rbac-namespace-default/)
  * [./zookeeper](./zookeeper/)
  * [./kafka](./kafka/)
