@@ -20,13 +20,13 @@ If you begin to rely on this kafka setup we recommend you fork, for example to e
 
 ## Version history
 
-| tag  | k8s >= | highlights |
-|:----:|:------:| |
-| v3.1 | 1.8    | The painstaking path to `min.insync.replicas`=2 |
-| v3.0 | 1.8    | |
-| v2.1 | 1.5    | |
-| v2.0 | 1.5    | [addon](https://github.com/Yolean/kubernetes-kafka/labels/addon)s |
-| v1.0 | 1      | Stateful? In Kubernetes? 2016? Yes. |
+| tag   | k8s >= | highlights |
+| ----- | ------ | ---------- |
+| v3.1  | 1.8    | The painstaking path to `min.insync.replicas`=2 |
+| v3.0  | 1.8    | [Outside access](#78), [modern manifests](#84), [bootstrap.kafka](#52) |
+| v2.1  | 1.5    | Kafka 1.0, the init script concept |
+| v2.0  | 1.5    | [addon](https://github.com/Yolean/kubernetes-kafka/labels/addon)s |
+| v1.0  | 1      | Stateful? In Kubernetes? 2016? Yes. |
 
 ## Monitoring
 
