@@ -43,7 +43,7 @@ Have a look at:
 
 ## Fewer than three nodes?
 
-For minikube, youkube etc have a look at:
+For [minikube](https://github.com/kubernetes/minikube/), [youkube](https://github.com/Yolean/youkube) etc:
 
  * [Scale 1](https://github.com/Yolean/kubernetes-kafka/pull/44)
  * [Scale 2](https://github.com/Yolean/kubernetes-kafka/pull/118)
